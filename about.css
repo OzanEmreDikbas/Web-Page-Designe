@@ -86,7 +86,7 @@ input {
 
 #aboutUs {
     background-color: rgb(243, 243, 243);
-    height: 640px;
+    height: 650px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -144,4 +144,11 @@ p {
 
 #footer img {
     width: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    input {
+        height: 30px;
+        margin: 2px 0;
+    }
 }

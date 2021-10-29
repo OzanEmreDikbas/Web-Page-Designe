@@ -71,10 +71,6 @@ h1 {
     margin-bottom: 30px;
 }
 
-#main img {
-    width: 400px;
-}
-
 #subscribe {
     height: 90px;
     display: flex;
@@ -88,23 +84,21 @@ h3 {
     margin-left: 20px;
 }
 
-input {
-    height: 35px;
-}
-
 .email {
     width: 240px;
+    height: 35px;
 }
 
 .submit {
     background-color: rgb(255, 94, 0);
     width: 90px;
+    height: 35px;
     border: none;
 }
 
 #graphic {
     background-color: white;
-    height: 240px;
+    height: 245px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -144,4 +138,12 @@ h4 {
 
 #footer img {
     width: 200px;
+}
+
+@media screen and (max-width: 800px) {
+    .email,
+    .submit {
+        height: 30px;
+        margin: 2px 0;
+    }
 }

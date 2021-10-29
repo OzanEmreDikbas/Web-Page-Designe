@@ -70,23 +70,21 @@ h3 {
     margin-left: 20px;
 }
 
-input {
-    height: 35px;
-}
-
 .email {
     width: 240px;
+    height: 35px;
 }
 
 .submit {
     background-color: rgb(255, 94, 0);
     width: 90px;
+    height: 35px;
     border: none;
 }
 
 #services {
     background-color: rgb(245, 245, 245);
-    height: 640px;
+    height: 650px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -114,6 +112,7 @@ p {
     background-color: rgb(230, 230, 230);
     margin: 2px;
     padding: 18px 0;
+    max-height: 200px;
 }
 
 .service h4 {
@@ -132,6 +131,10 @@ p {
     margin: 20px;
 }
 
+.quote h4 {
+    margin-left: 15px;
+}
+
 form {
     width: auto;
     min-width: 250px;
@@ -141,10 +144,12 @@ form {
 input {
     font-size: 0.8rem;
     width: 200px;
+    margin: 0 0 15px 15px;
 }
 
 label {
     font-size: 0.8rem;
+    margin-left: 15px;
 }
 
 #send {
@@ -163,4 +168,24 @@ label {
 
 #footer img {
     width: 200px;
+}
+
+@media screen and (max-width: 830px) {
+    .service {
+        height: 250px;
+        overflow: scroll;
+    }
+    h4 {
+        margin: 5px 0;
+    }
+    .service h4 {
+        margin: 10px;
+    }
+    .service p {
+        margin: 10px;
+    }
+    input {
+        width: 100px;
+        margin: 0 0 5px 15px;
+    }
 }
