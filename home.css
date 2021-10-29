@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background-color: #516171;
+    color: white;
+}
+
+#header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid #A9508B;
+    align-items: center;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+.home {
+    color: #A9508B;
+    font-weight: bold;
+}
+
+.about,
+.services {
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+}
+
+li {
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+span {
+    color: #A9508B;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    height: 400px;
+    background-image: url(./images/showcase.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+#main img {
+    width: 400px;
+}
+
+#subscribe {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+input {
+    height: 35px;
+}
+
+.email {
+    width: 240px;
+}
+
+.submit {
+    background-color: rgb(255, 94, 0);
+    width: 90px;
+    border: none;
+}
+
+#graphic {
+    background-color: white;
+    height: 240px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.grap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.grap p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.grap img {
+    width: 80px;
+}
+
+h4 {
+    margin: 15px 0;
+}
+
+#footer {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer img {
+    width: 200px;
+}
